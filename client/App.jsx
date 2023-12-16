@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react'
 import axios from 'axios';
-import AuthButtons from './buttons/AuthButtons.jsx';
+import AuthButtons from './src/buttons/AuthButtons.jsx';
 import { withAuth0 } from '@auth0/auth0-react';
-import Dogs from './Dogs.jsx';
+import Dogs from './src/Dogs.jsx';
 
 
 
